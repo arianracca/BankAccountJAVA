@@ -7,7 +7,7 @@ public class CuentaAhorros extends Cuenta {
     
     public CuentaAhorros(float saldo){
         super(saldo);
-        activa = saldo > 10000;
+        activa = saldo > 0;
     }
     
     //Sobreescribir métodos clase padre
